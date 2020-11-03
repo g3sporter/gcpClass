@@ -1,7 +1,7 @@
 provider "google" {
- #credentials = "${file("/Users/bryan/hashicorp/bryanTest-d87f1249d43c.json")}"
-  project     = "bryanTest"
-  region      = "us-west1"
+  project     = "bryantest"
+  region      = "us-west1-a"
+ # credentials = file(var.path)
 }
 
 resource "google_compute_instance" "default" {
