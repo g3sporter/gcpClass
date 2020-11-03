@@ -1,6 +1,6 @@
 provider "google" {
  #credentials = "${file("/Users/bryan/hashicorp/bryanTest-d87f1249d43c.json")}"
- #project     = "bryanTest"
+  project     = "bryanTest"
   region      = "us-west1"
 }
 
