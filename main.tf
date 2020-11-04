@@ -1,3 +1,5 @@
+variable "test" {default = "test"}
+
 provider "google" {
   project     = "bryantest"
   region      = "us-west1-a"
