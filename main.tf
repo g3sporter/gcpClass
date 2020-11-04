@@ -1,4 +1,4 @@
-variable "test" {default = "test"}
+#variable "test" {default = "test"}
 
 provider "google" {
   project     = "bryantest"
